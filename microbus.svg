@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" role="img" aria-label="Microbus">
+  <defs>
+    <linearGradient id="mg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26c6da"/>
+      <stop offset="1" stop-color="#00838f"/>
+    </linearGradient>
+  </defs>
+  <path d="M30 40 Q34 28 50 28 L150 28 Q172 28 178 48 L182 62 Q184 70 176 72 L34 72 Q26 72 26 62 Z" fill="url(#mg)"/>
+  <rect x="26" y="70" width="158" height="20" rx="8" fill="#006064"/>
+  <rect x="42" y="36" width="28" height="22" rx="5" fill="#b2ebf2"/>
+  <rect x="78" y="36" width="28" height="22" rx="5" fill="#b2ebf2"/>
+  <rect x="114" y="36" width="28" height="22" rx="5" fill="#b2ebf2"/>
+  <path d="M150 36 L164 36 Q172 40 175 56 L150 56 Z" fill="#b2ebf2"/>
+  <text x="104" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">MICROBUS 💙</text>
+  <circle cx="60" cy="92" r="13" fill="#263238"/>
+  <circle cx="60" cy="92" r="5.5" fill="#90a4ae"/>
+  <circle cx="148" cy="92" r="13" fill="#263238"/>
+  <circle cx="148" cy="92" r="5.5" fill="#90a4ae"/>
+  <rect x="180" y="58" width="7" height="9" rx="2" fill="#ffca28"/>
+</svg>

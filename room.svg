@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" role="img" aria-label="Resort room">
+  <defs>
+    <linearGradient id="rg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8e1"/>
+      <stop offset="1" stop-color="#ffe0b2"/>
+    </linearGradient>
+  </defs>
+  <!-- room facade -->
+  <rect x="30" y="30" width="140" height="80" rx="8" fill="url(#rg)" stroke="#d7b98a" stroke-width="3"/>
+  <polygon points="22,34 100,4 178,34" fill="#e65100"/>
+  <!-- window -->
+  <rect x="45" y="48" width="34" height="30" rx="4" fill="#4fc3f7" stroke="#90a4ae" stroke-width="2"/>
+  <line x1="62" y1="48" x2="62" y2="78" stroke="#90a4ae" stroke-width="2"/>
+  <line x1="45" y1="63" x2="79" y2="63" stroke="#90a4ae" stroke-width="2"/>
+  <!-- door -->
+  <rect x="118" y="52" width="36" height="58" rx="4" fill="#6d4c41"/>
+  <circle cx="147" cy="82" r="3.5" fill="#ffca28"/>
+  <!-- key tag -->
+  <g transform="translate(96,88) rotate(-12)">
+    <circle cx="0" cy="0" r="9" fill="none" stroke="#ffb300" stroke-width="4"/>
+    <rect x="7" y="-2.5" width="22" height="5" rx="2" fill="#ffb300"/>
+    <rect x="22" y="2" width="4" height="6" rx="1" fill="#ffb300"/>
+  </g>
+  <!-- palm hint -->
+  <path d="M18 110 C14 92 6 86 0 86 C8 94 14 104 18 112 Z" fill="#43a047"/>
+  <path d="M184 110 C188 92 196 86 200 86 C194 94 188 104 184 112 Z" fill="#43a047"/>
+</svg>

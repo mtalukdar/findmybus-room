@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delivery Excellence Day 2026 — Find My Bus &amp; Room</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sky">
+  <div class="sun"></div>
+  <div class="cloud cloud-1"></div>
+  <div class="cloud cloud-2"></div>
+  <div class="cloud cloud-3"></div>
+</div>
+
+<header class="hero">
+  <div class="badge">🚀 Saturday · 11 July 2026 · Garden Centre Resort 🌳</div>
+  <h1>🏆 Delivery Excellence Day 🏆</h1>
+  <p class="tagline">🔑 One Team &middot; One Vision &middot; One Purpose 🔑</p>
+  <img src="hero.svg" alt="Bus heading to Garden Centre Resort at sunrise" class="hero-art">
+</header>
+
+<main>
+  <section class="search-card" id="searchCard">
+    <h2>🚌 Find your Bus &amp; Room 🛏️</h2>
+    <p class="hint">Type your name to see your allocated transport &amp; room</p>
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="e.g. Ikramul Hoque" autocomplete="off" autofocus>
+      <button id="searchBtn" type="button">Find Me</button>
+    </div>
+    <ul id="suggestions" class="suggestions"></ul>
+    <div id="notFound" class="not-found" hidden>
+      😕 Sorry, we couldn't find that name. Please check the spelling or contact the PMO team.
+    </div>
+  </section>
+
+  <section id="result" class="result" hidden>
+    <div class="result-header">
+      <span class="confetti-burst">🎉</span>
+      <h3 id="resultName"></h3>
+      <p id="resultDept" class="dept-chip"></p>
+    </div>
+    <div class="alloc-grid">
+      <div class="alloc-card transport-card">
+        <div class="alloc-art">
+          <img id="transportImg" src="bus.svg" alt="Transport" class="drive-in">
+        </div>
+        <p class="alloc-label">Allocated Transport</p>
+        <p class="alloc-value" id="resultTransport"></p>
+        <p class="alloc-note">📍 Natunbazar Bus Stop · 7:00 AM sharp ⏰</p>
+      </div>
+      <div class="alloc-card room-card">
+        <div class="alloc-art">
+          <img src="room.svg" alt="Room" class="door-open">
+        </div>
+        <p class="alloc-label">Allocated Room</p>
+        <p class="alloc-value" id="resultRoom"></p>
+        <p class="alloc-note">🌳 Garden Centre Resort</p>
+      </div>
+    </div>
+    <p class="cheer">👑 Own everything. Lead with purpose. Deliver excellence. 👑</p>
+  </section>
+
+  <section class="checklist">
+    <h4>📌 Quick Checklist</h4>
+    <p>👕 Uniform (worn from home) · 🖊️ Pen &amp; notebook · 🩳 Swimwear · 🎒 Activity kit · 😄 Big smiles!</p>
+  </section>
+</main>
+
+<footer>
+  <p>💙 BJIT · Delivery Excellence Day 2026 · Be there. Own it. Let's make history — together! 🏆⚽</p>
+</footer>
+
+<canvas id="confettiCanvas"></canvas>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
