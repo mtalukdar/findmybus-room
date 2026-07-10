@@ -44,6 +44,11 @@ body {
 
 /* ---------- hero ---------- */
 .hero { position: relative; z-index: 1; text-align: center; padding: 34px 16px 8px; }
+.brand-logo {
+  display: block; height: 72px; margin: 0 auto 14px;
+  filter: drop-shadow(0 3px 8px rgba(56,54,145,0.25));
+  animation: fadeDown 0.8s ease both;
+}
 .badge {
   display: inline-block; background: var(--blue); color: #fff;
   padding: 7px 18px; border-radius: 999px; font-size: 0.85rem; font-weight: 600;
@@ -203,6 +208,7 @@ footer {
   position: relative; z-index: 1; text-align: center; padding: 20px 16px 30px;
   color: var(--blue); font-weight: 600; font-size: 0.9rem;
 }
+.footer-logo { height: 30px; vertical-align: -9px; }
 
 /* ---------- confetti canvas ---------- */
 #confettiCanvas {
